@@ -18,7 +18,7 @@ SECRET_KEY = env('DJANGO_SECRET_KEY', default='django-insecure-l42=7*(kh6%zdl1*7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
